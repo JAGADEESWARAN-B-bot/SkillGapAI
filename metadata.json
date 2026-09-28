@@ -1,0 +1,6 @@
+{
+  "name": "SkillGap AI",
+  "description": "Career Skill Gap Analyzer, personalized roadmaps, resume analysis, what-if simulator, and interview preparation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

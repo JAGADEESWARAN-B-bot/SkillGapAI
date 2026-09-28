@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center container within 66dp safe zone (21dp to 87dp) -->
+    <!-- Bar 1 (foundation) -->
+    <path
+        android:fillColor="#60A5FA"
+        android:pathData="M32,60h8v16h-8z" />
+    <!-- Bar 2 (growth) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M44,50h8v26h-8z" />
+    <!-- Bar 3 (target/high) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M56,40h8v36h-8z" />
+    <!-- Bar 4 (mastery) -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M68,30h8v46h-8z" />
+    <!-- Ascending growth trajectory line with arrow -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M32,54 L48,44 L60,34 L76,24" />
+    <!-- Arrow head -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M78,22l-6,1l3,3z" />
+    <!-- AI sparkle / node star at the apex -->
+    <path
+        android:fillColor="#FCD34D"
+        android:pathData="M77,20l1.2,2.8l2.8,1.2l-2.8,1.2l-1.2,2.8l-1.2,-2.8l-2.8,-1.2l2.8,-1.2z" />
+    <!-- Career Graduation Cap Icon at top left -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,29l-11,5.5l11,5.5l11,-5.5z M47,38v6c-2,1.5 -5,2 -7,2s-5,-0.5 -7,-2v-6l7,3.5z" />
+</vector>
