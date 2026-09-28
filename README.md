@@ -71,10 +71,27 @@ GEMINI_API_KEY=your_gemini_api_key_here
 
 ## 6. Building and Running
 
+### Web Application (React + Vite + Tailwind CSS)
+```bash
+# Install dependencies
+npm install
+
+# Run local development server
+npm run dev
+
+# Create optimized production build
+npm run build
+```
+
+The production build compiles directly into `dist/`.
+
+### Vercel Deployment Configuration
+The repository includes `vercel.json` configured for Single Page Application (SPA) routing:
+- `buildCommand`: `npm run build`
+- `outputDirectory`: `dist`
+- Wildcard rewrites: `/(.*)` &rarr; `/index.html` to eliminate 404 NOT_FOUND errors on direct deep links or browser refreshes across `/dashboard`, `/analyze`, `/roadmap`, `/skills`, `/projects`, `/interview`, `/history`, and `/profile`.
+
 ### Android Build
 ```bash
 gradle assembleDebug
 ```
-
-### Vercel / Web Deployment Configuration
-This repository includes `vercel.json` with SPA wildcard rewrite rules (`/(.*) -> /index.html`) to ensure 404-safe routing when hosting documentation or web companion exports.
